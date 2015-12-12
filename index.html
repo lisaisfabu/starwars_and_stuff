@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="Script.JS"></script>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500|Orbitron:400,500,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title> STARWARS CREATION </title>
+</head>
+
+
+
+<body>
+    <center>
+        <h1 id="space">SPACE</h1>
+        <p class="bio"> ScriptEd • Programming • And • Character • Establishment</p>
+    </center>
+    <hr>
+    <center>
+        <p class="instruction" id="wording"> IT IS TIME TO CREATE YOUR OWN STARWARS CHARACTER!</p>
+        <p class="instruction" id="actualinstruction"> CLICK TO MODIFY YOUR CHARACTER AND LET THE ADVENTURE BEGIN.</p>
+    </center>
+    <div class="parent">
+
+        <div id="left">
+            <div id="question1">
+
+                <center>
+                    <h2>What helmet set would you like your character to have?</h2>
+                </center>
+                <ul class="parent choices">
+                    <li onclick="Helmet1()">
+                        <img src="http://i.imgur.com/fv77tfj.png" class="fifty" />
+                    </li>
+                    <li onclick="Helmet2()">
+                        <img src="http://i.imgur.com/bIyR1PA.png" class="fifty" />
+                    </li>
+                </ul>
+            </div>
+            <div id="question2">
+                <center>
+                    <h2>What clothes would you like your character to have?</h2></center>
+                <ul class="parent choices">
+                    <li onclick="Clothing1()">
+                        <img src="http://i.imgur.com/Xqy68OI.png " class="hundred" />
+                    </li>
+                    <li onclick="Clothing2()">
+                        <img src="http://i.imgur.com/679Bnya.png" class="hundred" />
+                    </li>
+
+                </ul>
+            </div>
+            <div id="question3">
+                <center>
+                    <h2>What weapon would you like your character to have?</h2></center>
+                <ul class="parent choices">
+                    <li onclick="Weapon1()">
+                        <img src="http://i.imgur.com/nTVwdjT.png" />
+                    </li>
+                    <li onclick="Weapon2()">
+                        <img src="http://i.imgur.com/je5DhSE.png" />
+                    </li>
+                </ul>
+            </div>
+            <div id="question4">
+                <center>
+                    <h2>What background would you like your character to have?</h2></center>
+                <ul class="parent choices">
+                    <li onclick="Background1()">
+                        <img height="130" width="130" src="http://1.bp.blogspot.com/_r3adJMMRsz0/TP5cs5vsxcI/AAAAAAAAALg/1EtUjUuEmKQ/s1600/110.jpg" />
+                    </li>
+                    <li onclick="Background2()">
+                        <img height=130 width="130" src="http://www.cinemablend.com/images/gallery/s24735/star_wars__the_old_republic_12744705077435.jpg" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="right">
+            <img id="head" class="sos"/>
+            <img id="weapon1" />
+            <img id="weapon2"/>
+            <img id="body" class="sos"/>
+        
+        <div>
+            
+             
+            <a href="javascript:window.location.reload();"><img class="reset_button" src="http://i.imgur.com/PzgBgwC.png" /></a> 
+        </div>
+        </div>
+    </div>
+<audio autoplay loop>
+  <source src="starwars.mp3" type="audio/mpeg">
+</audio>
+
+    </div>
+</body>
+
+</html>
